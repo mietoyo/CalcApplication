@@ -8,38 +8,26 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="計算1"
+        android:text="BUTTON1"
         android:id="@+id/button1"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="計算2"
+        android:text="BUTTON2"
         android:id="@+id/button2"/>
 
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="計算3"
+        android:text="BUTTON3"
         android:id="@+id/button3"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="計算4"
+        android:text="BUTTON4"
         android:id="@+id/button4"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText1"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText2"/>
-
-
-
 
 
 </LinearLayout>
