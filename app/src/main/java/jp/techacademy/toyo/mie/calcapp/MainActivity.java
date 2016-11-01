@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         intent.putExtra("VALUE2", 2.0);
         startActivity(intent);
     }
+
     }
 
 
