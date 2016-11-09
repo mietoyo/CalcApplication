@@ -5,10 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
 
 
     @Override
@@ -31,14 +32,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
+
     @Override
     public void onClick(View v) {
         Intent intent = new Intent(this, SecondActivity.class);
-        intent.putExtra("VALUE1", 1.0);
-        intent.putExtra("VALUE2", 2.0);
+
+        TextView editText1 = (TextView) findViewById(R.id.editText1);
+        String text1 = editText1.getText().toString();
+
+
+        intent.putExtra("VALUE1", "");
+        intent.putExtra("VALUE2", "");
+        intent.putExtra("VALUE3", "");
         startActivity(intent);
     }
-
     }
 
 
