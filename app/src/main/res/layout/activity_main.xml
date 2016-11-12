@@ -10,14 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=""
-        android:onClick="sendMessage"
+        android:onClick=""
     android:id="@+id/editText1"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=""
-        android:onClick="sendMessage"
+        android:onClick=""
         android:id="@+id/editText2"/>
 
     <Button
@@ -31,6 +31,7 @@
         android:layout_height="wrap_content"
         android:text="BUTTON2"
         android:id="@+id/button2"/>
+
 
     <Button
         android:layout_width="wrap_content"
