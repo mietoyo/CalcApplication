@@ -5,9 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-import static jp.techacademy.toyo.mie.calcapp.R.id.textView1;
-import static jp.techacademy.toyo.mie.calcapp.R.id.textView2;
-
 public class SecondActivity extends AppCompatActivity {
 
 
@@ -21,7 +18,7 @@ public class SecondActivity extends AppCompatActivity {
          double value1 = intent.getDoubleExtra("VALUE",0.0);
          double value2 = intent.getDoubleExtra("VALUE",0.0);
          double value3 = intent.getDoubleExtra("VALUE",0.0);
-        double value4 = intent.getDoubleExtra("VALUE",0.0);
+         double value4 = intent.getDoubleExtra("VALUE",0.0);
 
 
         TextView textView = (TextView) findViewById(R.id.textView);
